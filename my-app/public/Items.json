@@ -1,0 +1,94 @@
+
+    
+    {
+        "items": {
+          "bootstrap": [
+            {
+              "id": 0,
+              "title": "晓出净慈寺送林子方",
+              "body": "接天莲叶无穷碧，映日荷花别样红。",
+              "imageUrl": "./poemaigc/0.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 1,
+              "title": "春江花月夜",
+              "body": "春江潮水连海平，海上明月共潮生。",
+              "imageUrl": "./poemaigc/1.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 2,
+              "title": "暮江吟",
+              "body": "一道残阳铺水中，半江瑟瑟半江红。",
+              "imageUrl": "./poemaigc/2.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 3,
+              "title": "马诗二十三首·其五",
+              "body": "大漠沙如雪，燕山月似钩。",
+              "imageUrl": "./poemaigc/3.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 4,
+              "title": "渡荆门送别",
+              "body": "山随平野尽，江入大荒流。",
+              "imageUrl": "./poemaigc/4.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 5,
+              "title": "滕王阁序",
+              "body": "落霞与孤鹜齐飞，秋水共长天一色。",
+              "imageUrl": "./poemaigc/5.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 6,
+              "title": "山居秋暝",
+              "body": "明月松间照，清泉石上流。",
+              "imageUrl": "./poemaigc/6.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 7,
+              "title": "观书有感·其一",
+              "body": "半亩方塘一鉴开，天光云影共徘徊。",
+              "imageUrl": "./poemaigc/7.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 8,
+              "title": "逢雪宿芙蓉山主人",
+              "body": "日暮苍山远，天寒白屋贫。",
+              "imageUrl": "./poemaigc/8.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 9,
+              "title": "望月怀远",
+              "body": "海上生明月，天涯共此时。",
+              "imageUrl": "./poemaigc/9.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 10,
+              "title": "饮酒·其五",
+              "body": "采菊东篱下，悠然见南山。",
+              "imageUrl": "./poemaigc/10.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            },
+            {
+              "id": 11,
+              "title": "使至塞上",
+              "body": "大漠孤烟直，长河落日圆。",
+              "imageUrl": "./poemaigc/11.png",
+              "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+            }
+          ]
+        }
+      }
+     
+  
