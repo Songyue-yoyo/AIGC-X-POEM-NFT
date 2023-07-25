@@ -32,10 +32,6 @@ export default function Home() {
 
   // const mainChainId = useRef();
 
-
-
-  
-
   /**
    * publicMint: Mint an NFT 
    */
@@ -66,23 +62,7 @@ export default function Home() {
     }
   };
 
-  /*
-      connectWallet: Connects the MetaMask wallet
-    */
-  const connectWallet = async () => {
-    try {
-      // Get the provider from web3Modal, which in our case is MetaMask
-      // When used for the first time, it prompts the user to connect their wallet
-      const signer = await getProviderOrSigner(true);
-      const address = await signer.getAddress();
-      // setAccount(address);
-      setWalletConnected(true);
-      await getOwner();
-      await checkExistence();
-    } catch (err) {
-      console.error(err);
-    }
-  };
+
 
 
   
@@ -124,7 +104,23 @@ export default function Home() {
     }
   };
 
-
+  /*
+      connectWallet: Connects the MetaMask wallet
+    */
+      const connectWallet = async () => {
+        try {
+          // Get the provider from web3Modal, which in our case is MetaMask
+          // When used for the first time, it prompts the user to connect their wallet
+          const signer = await getProviderOrSigner(true);
+          const address = await signer.getAddress();
+          // setAccount(address);
+          setWalletConnected(true);
+          await getOwner();
+          await checkExistence();
+        } catch (err) {
+          console.error(err);
+        }
+      };
 
   /**
    * Returns a Provider or Signer object representing the Ethereum RPC with or without the
@@ -197,7 +193,7 @@ export default function Home() {
       // if(!walletConnected) {
       //   connectWallet();
       // }
-      connectWallet();
+      // connectWallet();
       
      
 
