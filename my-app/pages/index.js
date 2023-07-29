@@ -349,6 +349,7 @@ export default function Home() {
       );
     }
     return <button className={styles.mintButton} onClick={() => {publicMint(id)}}>mint</button>;
+    // return <button className={styles.mintButton} onClick={publicMint(id)}>mint</button>;
   };
 
   const BootstrapCarousel = () => {
@@ -384,44 +385,46 @@ export default function Home() {
         <meta name="description" content="POEM X AIGC" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.topBar}>
-        <img className={styles.logo} src="./logo.png" />
-        <div className={styles.navDiv}>
-          {renderTopButton()}
+      <div className={styles.body}>
+          <div className={styles.topBar}>
+            <img className={styles.logo} src="./logo.png" />
+            <div className={styles.navDiv}>
+              {renderTopButton()}
+              </div>
           </div>
-      </div>
-      <div className={styles.main}>
-        <div className={styles.welcome}>
-          <div><img src="welcome3.svg" className={styles.welcomeImage}></img></div>
-        </div>
-        <div>
-          <img className={styles.image} src="./poemaigc/main.jpg" />
-        </div>
-      </div>
+          <div className={styles.main}>
+            <div className={styles.welcome}>
+              <div><img src="welcome3.svg" className={styles.welcomeImage}></img></div>
+            </div>
+            <div>
+              <img className={styles.image} src="./poemaigc/main.jpg" />
+            </div>
+          </div>
 
-      <div className={styles.galleryLogo}>
-        <img src="AIGC6.svg"></img>
-      </div>
-      {/* <div className={styles.galleryModule}>
-        <div><img src={`/poemaigc/${fffff}.png`} width="512" height="320"></img></div>
-        <div>
-          <p>asdfg</p>
-          <p>asdfgpoiu</p>
-        </div>
-      </div> */}
-      {Gallery()}
-      {MintModule()}
-      {/* <div>{walletConnected.toString()}  {typeof existenceArr[0]} {existenceArr[6].toString()} {existenceArr[11].toString()} {loading.toString()}</div> */}
-      {/* <button onClick={() => {publicMint(BigNumber.from(0))}}>mint</button>  */}
-      {/* <button onClick={() => {publicMint(9)}} className={styles.mintButton} disabled>mint</button> */}
+          <div className={styles.galleryLogo}>
+            <img src="AIGC6.svg"></img>
+          </div>
+          {/* <div className={styles.galleryModule}>
+            <div><img src={`/poemaigc/${fffff}.png`} width="512" height="320"></img></div>
+            <div>
+              <p>asdfg</p>
+              <p>asdfgpoiu</p>
+            </div>
+          </div> */}
+          {Gallery()}
+          {MintModule()}
+          {/* <div>{walletConnected.toString()}  {typeof existenceArr[0]} {existenceArr[6].toString()} {existenceArr[11].toString()} {loading.toString()}</div> */}
+          {/* <button onClick={() => {publicMint(BigNumber.from(0))}}>mint</button>  */}
+          {/* <button onClick={() => {publicMint(9)}} className={styles.mintButton} disabled>mint</button> */}
 
-      <footer className={styles.footer}>
-        <div>
-          <a href="https://testnets.opensea.io/collection/poem-x-aigc-1" target="_blank">
-            <img src="Logomark-Blue.svg" style={{width:40}}></img>
-          </a>
-        </div>
-      </footer>
+          <footer className={styles.footer}>
+            <div>
+              <a href="https://testnets.opensea.io/collection/poem-x-aigc-1" target="_blank">
+                <img src="Logomark-Blue.svg" style={{width:40}}></img>
+              </a>
+            </div>
+          </footer>
+      </div>
     </div>
   );
 }
